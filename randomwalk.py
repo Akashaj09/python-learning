@@ -1,7 +1,8 @@
-import     return (x, y)
-
-@lru_cache(maxsize=2000000000000)random
+import random
 from functools import lru_cache
+
+
+@lru_cache(maxsize=2000000000000)
 def random_walk(n):
     x, y = 0, 0
     for i in range(n):
