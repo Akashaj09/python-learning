@@ -1,7 +1,7 @@
-g = lambda x: 3*x+1
+g = lambda x: 3 * x + 1
 print(g(5))
 
-full_name = lambda fn,ln :  fn.strip().title() + " " + ln.strip().title()
+full_name = lambda fn, ln: fn.strip().title() + " " + ln.strip().title()
 
 print(full_name("akash", "aj"))
 
@@ -11,16 +11,19 @@ sc.sort(key=lambda name: name.split(" ")[-1].lower())
 
 print(sc)
 
-def build_quardric_fuction(a,b,c):
-    return lambda x: a*x**2 + b*x + c
+
+def build_quardric_fuction(a, b, c):
+    return lambda x: a * x ** 2 + b * x + c
+
 
 f = build_quardric_fuction(10, 20, 30)
 print(f(20))
 
 import math
 
+
 def radius(x):
-    return math.pi * (x**2)
+    return math.pi * (x ** 2)
 
 
 d = radius(10)
@@ -33,7 +36,7 @@ print(a)
 
 temps = [("Dhaka", 25), ("Chittagoong", 20), ("Chandpur", 29)]
 
-c_to_f = lambda data : (data[0], 9/5*data[1] + 32)
+c_to_f = lambda data: (data[0], 9 / 5 * data[1] + 32)
 
 t = list(map(c_to_f, temps))
 
@@ -47,11 +50,11 @@ avg = s.mean(data)
 
 print(avg)
 
-lq = filter(lambda x: x > avg,  data)
+lq = filter(lambda x: x > avg, data)
 
 print(s.mean(list(lq)))
 
-squars2 = [i ** 2 for i in range(1 , 100)]
+squars2 = [i ** 2 for i in range(1, 100)]
 
 print(squars2)
 
