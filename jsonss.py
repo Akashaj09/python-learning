@@ -24,3 +24,6 @@ print(source["rates"])
 
 for rate in source["rates"]:
     print('{} : {}'.format(rate, source["rates"][rate]))
+
+with open('exchange_rate.csv', 'w') as f:
+    json.dump(source, f, indent=2)
