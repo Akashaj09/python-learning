@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dbafb77-adde-4877-bb9a-c4da7da6fce4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NumpyExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/NumpyExample.py" afterDir="false" />
     </list>
@@ -17,6 +16,7 @@
     <SUITE FILE_PATH="coverage/python_learning$jsonss.coverage" NAME="jsonss Coverage Results" MODIFIED="1543329654906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filess" />
     <SUITE FILE_PATH="coverage/python_learning$ContextManager.coverage" NAME="ContextManager Coverage Results" MODIFIED="1543505643561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning$jsonss__1_.coverage" NAME="jsonss (1) Coverage Results" MODIFIED="1543338327848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_learning$NumpyExample.coverage" NAME="NumpyExample Coverage Results" MODIFIED="1543932728196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning$datetimess.coverage" NAME="datetimess Coverage Results" MODIFIED="1543499580520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning$pythonUrlb.coverage" NAME="pythonUrlb Coverage Results" MODIFIED="1543245569333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1543245599192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NumpyExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="499">
+              <caret line="54" lean-forward="true" selection-start-line="52" selection-end-line="54" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -98,9 +98,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="732" />
+    <option name="width" value="658" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NumpyExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="NumpyExample" type="PythonConfigurationType" factoryName="Python">
       <module name="learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,15 +275,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ContextManager" />
       <item itemvalue="Python.NumpyExample" />
-      <item itemvalue="Python.datetimess" />
-      <item itemvalue="Python.jsonss (1)" />
       <item itemvalue="Python.jsonss" />
+      <item itemvalue="Python.jsonss (1)" />
+      <item itemvalue="Python.datetimess" />
+      <item itemvalue="Python.ContextManager" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NumpyExample" />
         <item itemvalue="Python.ContextManager" />
         <item itemvalue="Python.datetimess" />
         <item itemvalue="Python.jsonss (1)" />
@@ -310,6 +308,10 @@
       <workItem from="1543510307431" duration="139000" />
       <workItem from="1543533981903" duration="814000" />
       <workItem from="1543573301608" duration="1161000" />
+      <workItem from="1543757435480" duration="456000" />
+      <workItem from="1543758059945" duration="2604000" />
+      <workItem from="1543932652756" duration="262000" />
+      <workItem from="1544019148286" duration="660000" />
     </task>
     <servers />
   </component>
@@ -322,7 +324,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20153000" />
+    <option name="totallyTimeSpent" value="24135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,23 +336,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <frame x="0" y="0" width="1321" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942857" visible="true" weight="0.13560607" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942857" visible="true" weight="0.14666666" />
       <window_info id="Structure" order="1" sideWeight="0.5057143" side_tool="true" weight="0.1196319" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28355706" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3977813" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41778523" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41680673" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.6689076" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.66561013" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -358,7 +360,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32954547" />
-      <window_info anchor="right" x="0" y="0" width="291" height="532" id="Documentation" order="5" side_tool="true" weight="0.32954547" />
+      <window_info anchor="right" x="0" y="0" width="291" height="532" id="Documentation" order="5" side_tool="true" weight="0.6830065" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,10 +552,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NumpyExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="499">
+          <caret line="54" lean-forward="true" selection-start-line="52" selection-end-line="54" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
